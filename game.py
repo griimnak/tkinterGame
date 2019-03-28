@@ -1,6 +1,6 @@
 try:
     # Python 2 fallback
-    import Tkinter as Tkinter
+    import Tkinter as tk
 except ImportError:
     import tkinter as tk
 import sys
