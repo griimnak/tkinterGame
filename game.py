@@ -175,7 +175,7 @@ game_folder = path.dirname(__file__)
 walls = []
 map_data = []
 
-with open(path.join(game_folder, "map2.txt"), "rt") as map_file:
+with open(path.join(game_folder, "map.txt"), "rt") as map_file:
     for line in map_file:
         map_data.append(line)
 
